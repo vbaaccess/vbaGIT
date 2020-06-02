@@ -21,6 +21,20 @@ Property Get ObjectToExport() As String
   ObjectToExport = m_ObjectToExport
 End Property
 
+Public Sub CheckForUpdates()
+    'TO DO
+End Sub
+
+Public Sub Update()
+    Debug.Print "Checking if there is a new version..."   'TO DO - zaczynamy
+    
+    'TO DO - sparwdzamy czy jest nowa wersja
+    
+    'TO DO - jesli jest uzytkownik musi potwierdzić
+    
+    Debug.Print "No New Version."
+End Sub
+
 Public Function Export()
     If Len(m_ObjectToExport) > 0 Then
         Debug.Print "Object export " & m_ObjectToExport
