@@ -1,2 +1,2 @@
 # vbaGIT
-A tool supporting guitar in mdb and adp projects
+Class + module, supporting the use of GIT in ADP projects (MS Office)
